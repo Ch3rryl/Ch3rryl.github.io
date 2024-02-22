@@ -28,14 +28,6 @@ nav .show {
 
 }
 
-/* a .show {
-    padding: 5px;
-    margin: 0;
-
-    background-color: black;
-    color: white;
-} */
-
 
 nav .show li {
 top: 10%;
@@ -79,10 +71,6 @@ a:hover {
 
 }
 
-
-/* .main-layout {
-    margin: 5%;
-} */
 
 section {
     min-height: 100vh;
@@ -132,12 +120,11 @@ p {
 
 .project-card {
     position: relative;
-    width: 400px;
+    width: 380px;
     height: 500px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
     margin: 25px 15px;
-    /* border-radius: 5px; */
     
 }
 
@@ -164,7 +151,6 @@ img:hover {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background-color: rgba(0, 0, 0, 0.5); */
     color:  black;
     padding: 5px 10px;
     opacity: 0;
@@ -365,6 +351,10 @@ button:hover {
 
 .hero-section {
     bottom: 0;
+}
+
+section {
+border-bottom: none;
 }
 
     
