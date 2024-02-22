@@ -19,14 +19,22 @@ nav .show {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-color: white;
+    /* background-color: transparent; */
     height: fit-content;
     width: 50%;
-    margin-top: 16%;
+    margin-top: 10%;
     padding-right: 0;
     z-index: 1;
 
 }
+
+/* a .show {
+    padding: 5px;
+    margin: 0;
+
+    background-color: black;
+    color: white;
+} */
 
 
 nav .show li {
@@ -36,7 +44,7 @@ margin: 5px;
 }
 
 nav .show li:hover {
-    background-color: #ff059d;
+    background-color: transparent;
     color: white;
 }
 
@@ -310,6 +318,12 @@ button:hover {
     transform: scale(1.1);
 }
 
+.thanks {
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+}
+
 /* phones  */
 
 @media only screen and (max-width: 600px) {
@@ -345,9 +359,13 @@ button:hover {
         font-size: 18px;
     }
 
-    h2 .thanks {
-      padding: 40px;
-    }
+.hero-h1 {
+    display: none;
+}
+
+.hero-section {
+    bottom: 0;
+}
 
     
 
