@@ -345,6 +345,10 @@ button:hover {
         font-size: 18px;
     }
 
+    h2 .thanks {
+      padding: 40px;
+    }
+
     
 
 }
